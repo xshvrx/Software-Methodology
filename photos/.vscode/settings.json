@@ -1,0 +1,14 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Zaeem\\Downloads\\json-20230227.jar",
+        "c:\\Users\\shivp\\Downloads\\json-20200518.jar",
+        "c:\\Users\\shivp\\Downloads\\openjfx-19.0.2.1_windows-x64_bin-sdk\\javafx-sdk-19.0.2.1\\lib\\javafx.base.jar",
+        "c:\\Users\\shivp\\Downloads\\openjfx-19.0.2.1_windows-x64_bin-sdk\\javafx-sdk-19.0.2.1\\lib\\javafx.controls.jar",
+        "c:\\Users\\shivp\\Downloads\\openjfx-19.0.2.1_windows-x64_bin-sdk\\javafx-sdk-19.0.2.1\\lib\\javafx.fxml.jar",
+        "c:\\Users\\shivp\\Downloads\\openjfx-19.0.2.1_windows-x64_bin-sdk\\javafx-sdk-19.0.2.1\\lib\\javafx.graphics.jar",
+        "c:\\Users\\shivp\\Downloads\\openjfx-19.0.2.1_windows-x64_bin-sdk\\javafx-sdk-19.0.2.1\\lib\\javafx.media.jar",
+        "c:\\Users\\shivp\\Downloads\\openjfx-19.0.2.1_windows-x64_bin-sdk\\javafx-sdk-19.0.2.1\\lib\\javafx.web.jar",
+        "c:\\Users\\shivp\\Downloads\\openjfx-19.0.2.1_windows-x64_bin-sdk\\javafx-sdk-19.0.2.1\\lib\\javafx-swt.jar"
+    ]
+}

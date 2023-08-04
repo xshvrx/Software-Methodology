@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modules.controllers.AlbumCoverController">
+   <children>
+      <HBox fx:id="albumCoverPanel" alignment="CENTER" onMouseClicked="#openAlbum" prefHeight="5.0" style="-fx-background-color: #4A5366; -fx-background-radius: 25;" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../attributes/album_icon.png.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
+         <children>
+            <Text fx:id="albumName" strokeType="OUTSIDE" strokeWidth="0.0" text="Album Name" wrappingWidth="250">
+               <font>
+                  <Font name="Microsoft Tai Le Bold" size="22.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="6.0" left="15.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutY="174.0" prefHeight="23.0" prefWidth="300.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Text fx:id="photoCount" fill="#d3cbcb" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo Count">
+               <font>
+                  <Font name="Microsoft Tai Le Bold" size="19.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <MenuButton layoutX="325.0" layoutY="216.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="100.0" text="Manage" AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="10.0">
+        <items>
+          <MenuItem fx:id="renameAlbumButton" mnemonicParsing="false" onAction="#renameAlbum" text="Rename" />
+          <MenuItem fx:id="deleteAlbumButton" mnemonicParsing="false" onAction="#deleteAlbum" text="Delete" />
+        </items>
+         <font>
+            <Font name="Microsoft Tai Le Bold" size="13.0" />
+         </font>
+      </MenuButton>
+   </children>
+</AnchorPane>
